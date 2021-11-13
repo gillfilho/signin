@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>SIGN IN FORM</title>
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h3>SIGN IN</h3>
+            <div class="login-user">
+                <input type="text" placeholder="Username">
+                <i data-feather="user"></i>
+            </div>
+
+            <div class="login-password">
+                <input type="password" placeholder="Password">
+                <i data-feather="lock"></i>
+            </div>
+
+            <div class="options-form">
+                <div class="option-remember">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <div class="option-reset">
+                    <a href="#">Reset Password</a>
+                </div>
+                
+            </div>
+            <button type="submit">Sign In</button>
+        </form>
+
+        <p>or Sign in with</p>
+
+        <div class="social-login">
+            
+            <div class="social-facebook">
+                <a href="#"><img src="assets/facebook.svg" alt="Facebook"></a>
+            </div>
+
+            <div class="social-twitter">
+                <a href="#"><img src="assets/twitter.svg" alt="Facebook"></a>
+            </div>
+
+            <div class="social-linkedin">
+                <a href="#"><img src="assets/linkedin.svg" alt="Facebook"></a>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="options-signup">
+            <p>
+                Do not have an account? <a href="#">Sign Up now</a>
+            </p>
+        </div>
+    </div>
+
+
+
+    
+
+
+    <script>
+        feather.replace()
+      </script>
+
+</body>
+</html>
